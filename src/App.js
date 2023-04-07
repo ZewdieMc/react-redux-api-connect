@@ -1,10 +1,10 @@
 import './App.css';
-import FetchedUsers from './components/FetchedUsers';
+import Users from './components/FetchedUsers';
 
 function App() {
   return (
     <div className="App">
-      <FetchedUsers />
+      <Users />
     </div>
   );
 }
