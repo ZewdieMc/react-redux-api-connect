@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { fetchUsers } from "../redux/users/usersSlice";
 
-const FetchedUsers = () => {
+const Users = () => {
   const { users, isLoading, error } = useSelector((state) => state.users);
   const dispatch = useDispatch();
   
@@ -22,4 +22,4 @@ const FetchedUsers = () => {
   );
 }
 
-export default FetchedUsers;
+export default Users;
